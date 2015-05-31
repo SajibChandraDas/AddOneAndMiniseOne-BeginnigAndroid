@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">One Activity to another Activity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_one">Add 1</string>
+    <string name="subtract_one">Subtract 1</string>
+    <string name="total">Your total is 0</string>
+
+</resources>

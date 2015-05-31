@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sdsajibdas.testaddorminiseone" >
+    <uses-permission android:name="android.permission.SET_WALLPAPER"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".FirstActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.sdsajibdas.testaddorminiseone.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.sdsajibdas.testaddorminiseone.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TestPlay"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".TestPlay2"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Calculator"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".VatCalculate"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Photo"
+            android:label="Camera Application"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".SearchEngine"
+            android:label="Search Engine"
+            android:screenOrientation="portrait">
+        </activity>
+
+    </application>
+
+</manifest>
